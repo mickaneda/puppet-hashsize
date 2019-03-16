@@ -1,0 +1,19 @@
+{
+  "name": "puppet-hashsize",
+  "version": "0.0.1",
+  "author": "Michiru Kaneda",
+  "summary": "Set hashsize for Linux",
+  "license": "MIT",
+  "source": "https://github.com/mickaneda/puppet-hashsize",
+  "description": "Set hashsize for Linux",
+  "issues_url": "https://github.com/mickaneda/puppet-hashsize/issues",
+  "tags": [
+  ],
+  "project_page": "https://github.com/mickaneda/puppet-hashsize",
+  "requirements": [
+  ],
+  "operatingsystem_support": [
+  ],
+  "dependencies": [
+  ]
+}
