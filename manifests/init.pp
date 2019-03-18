@@ -7,9 +7,9 @@ class hashsize(
   file {"nf_conntrack.conf":
     path => $conf_path,
     content => "options nf_conntrack hashsize=${hashsize}",
-    owner => root,
-    group => root,
-    mode => 0644,
+    owner => "root",
+    group => "root",
+    mode => "0644",
   }
   exec {"${name} exec":
     command =>  "echo ${hashsize} > ${hashsize_path}"
