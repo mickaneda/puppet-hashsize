@@ -15,6 +15,6 @@ class hashsize(
     command =>  "/bin/echo ${hashsize} > ${hashsize_path}"
   }
   exec {"change hashsize":
-    command => "sysctl -w net.netfilter.nf_conntrack_max=${nf_conntrack_max}"
+    command => "/sbin/sysctl -w net.netfilter.nf_conntrack_max=${nf_conntrack_max}"
   }
 }
