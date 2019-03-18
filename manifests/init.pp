@@ -12,7 +12,7 @@ class hashsize(
     mode => "0644",
   }
   exec {"${name} exec":
-    command =>  "echo ${hashsize} > ${hashsize_path}"
+    command =>  "/bin/echo ${hashsize} > ${hashsize_path}"
   }
   exec {"change hashsize":
     command => "sysctl -w net.netfilter.nf_conntrack_max=${nf_conntrack_max}"
