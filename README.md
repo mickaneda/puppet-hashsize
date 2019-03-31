@@ -1,2 +1,2 @@
 # puppet-hashsize
-Set hashsize for Linux
+Set hashsize and nf_conntrack_max for Linux
